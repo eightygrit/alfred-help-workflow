@@ -2,7 +2,7 @@
 __author__ = u'pochemuto'
 import sys, plistlib, os
 from os import path
-from workflow import Workflow, ICON_HELP, ICON_INFO
+from .alfred-workflow-framework.workflow import Workflow, ICON_HELP, ICON_INFO
 from workflow.background import run_in_background, is_running
 
 CACHE_MAX_AGE = 12 * 60 * 60  # 12 hours
